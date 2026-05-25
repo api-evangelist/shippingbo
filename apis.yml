@@ -1,0 +1,182 @@
+aid: shippingbo
+name: Shippingbo
+description: >-
+  Shippingbo is a Toulouse, France-based e-commerce logistics SaaS founded in
+  2016 by Marc Hericher and Romain Parent. The platform unifies an Order
+  Management System (OMS), Warehouse Management System (WMS), and Transport
+  Management System (TMS) behind a single REST API so that merchants, DNVBs,
+  3PLs, wholesalers, manufacturers, and marketplaces can centralize
+  multi-channel orders, pilot warehouse picking and packing, and execute
+  multi-carrier shipments from one back office. Shippingbo claims 5,000+
+  active users, 80 million orders, and EUR 5 billion in merchandise handled
+  in 2024, with 2,500+ warehouses equipped across France and Europe.
+  The Shippingbo Developer Portal (powered by Stoplight) exposes a public
+  REST/JSON API covering orders, products, stocks, shipments, customers,
+  pickings, and source connectors, secured by OAuth 2.0 through the
+  oauth.shippingbo.com authorization server. Shippingbo additionally offers
+  a dedicated TMS API for multi-carrier label generation and a webhook
+  channel for order state changes, stock changes, and shipment events.
+  Reported developer-facing scale includes 500+ developers, 10+ million
+  orders processed through the APIs, 500+ million webhook deliveries, and
+  40+ pre-integrated carriers. Shippingbo is a French Tech company backed
+  by IRDI Capital Investissement and GSO Innovation.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Shipping
+  - Logistics
+  - Ecommerce
+  - Order Management
+  - Warehouse Management
+  - Transport Management
+  - OMS
+  - WMS
+  - TMS
+  - Multi-Carrier
+  - Fulfillment
+  - 3PL
+  - Marketplaces
+  - Webhooks
+  - OAuth2
+  - SaaS
+  - France
+  - French Tech
+url: https://raw.githubusercontent.com/api-evangelist/shippingbo/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis:
+  - aid: shippingbo:shippingbo-api
+    name: Shippingbo API
+    description: >-
+      Shippingbo's primary REST/JSON API for managing the full e-commerce
+      logistics lifecycle: orders, order items, products, stocks, customers,
+      shipments, sources, and warehouse pickings. Documentation is hosted on
+      Stoplight at developer.shippingbo.com and the API is secured by OAuth
+      2.0 with access tokens issued by oauth.shippingbo.com. The API
+      supports webhooks so client systems can react to order-state and
+      stock changes without polling.
+    humanURL: https://developer.shippingbo.com/docs/api/i15i5zn8ewpo0-introduction
+    tags:
+      - Orders
+      - Products
+      - Stocks
+      - Shipments
+      - Customers
+      - Sources
+      - Pickings
+      - Webhooks
+      - OAuth2
+    properties:
+      - type: Documentation
+        url: https://developer.shippingbo.com/docs/api/i15i5zn8ewpo0-introduction
+      - type: Documentation
+        url: https://developer.shippingbo.com/docs/api/azqm8hjs8olad-general-principles
+        name: General Principles
+      - type: Authentication
+        url: https://developer.shippingbo.com/docs/api/x0dhn76sky84t-authentication-api
+      - type: OAuth
+        url: https://developer.shippingbo.com/docs/api/eq2qnbmjnwg4y-authentication-with-oauth
+      - type: TokenEndpoint
+        url: https://developer.shippingbo.com/docs/api/mbg3mf1bbcl83-obtain-an-access-token
+      - type: AuthorizationServer
+        url: https://oauth.shippingbo.com/
+      - type: Orders
+        url: https://developer.shippingbo.com/docs/api/c3fa417ce0854-manage-orders
+      - type: Shipments
+        url: https://developer.shippingbo.com/docs/api/r7ilvzdlqtrtp-manage-shipments
+      - type: Configuration
+        url: https://developer.shippingbo.com/docs/api/6fkoxdhf5024p-how-to-configure
+  - aid: shippingbo:shippingbo-tms-api
+    name: Shippingbo TMS API
+    description: >-
+      Dedicated Transport Management System API for multi-carrier shipment
+      execution. Supports carrier selection rules, label generation,
+      tracking, and post-shipment customer notifications across 40+
+      pre-integrated French and European carriers. Can be used standalone
+      to plug Shippingbo's TMS behind an existing OMS/WMS or as the
+      transport layer inside the full Shippingbo platform.
+    humanURL: https://developer.shippingbo.com/docs/tms-api/4aq6szxp6fsja-get-started-with-shippingbo-tms
+    tags:
+      - Transport
+      - Carriers
+      - Labels
+      - Tracking
+      - Multi-Carrier
+    properties:
+      - type: Documentation
+        url: https://developer.shippingbo.com/docs/tms-api/4aq6szxp6fsja-get-started-with-shippingbo-tms
+        name: Get started with Shippingbo TMS
+common:
+  - type: Website
+    url: https://www.shippingbo.com
+  - type: WebsiteEN
+    url: https://www.shippingbo.com/en/
+  - type: DeveloperPortal
+    url: https://developer.shippingbo.com/
+  - type: Documentation
+    url: https://developer.shippingbo.com/docs/api/i15i5zn8ewpo0-introduction
+  - type: AuthorizationServer
+    url: https://oauth.shippingbo.com/
+  - type: APIOverview
+    url: https://www.shippingbo.com/en/e-commerce/api-e-commerce-connect-automate-and-expand-your-logistics/
+  - type: APIPage
+    url: https://go.shippingbo.com/fr/api
+  - type: Product
+    url: https://www.shippingbo.com/en/produits/
+  - type: OMS
+    url: https://www.shippingbo.com/en/produits/oms/
+  - type: WMS
+    url: https://www.shippingbo.com/en/produits/wms/
+  - type: TMS
+    url: https://www.shippingbo.com/en/produits/tms/
+  - type: Integrations
+    url: https://www.shippingbo.com/en/integrations/
+  - type: Carriers
+    url: https://www.shippingbo.com/en/integrations/transporteurs/
+  - type: Pricing
+    url: https://www.shippingbo.com/en/tarifs/
+  - type: Customers
+    url: https://www.shippingbo.com/en/clients/
+  - type: Blog
+    url: https://www.shippingbo.com/en/blog/
+  - type: Company
+    url: https://www.shippingbo.com/en/qui-sommes-nous/
+  - type: Contact
+    url: https://www.shippingbo.com/en/contact/
+  - type: Careers
+    url: https://www.shippingbo.com/en/rejoignez-nous/
+  - type: LinkedIn
+    url: https://fr.linkedin.com/company/shippingbo-fr
+  - type: Twitter
+    url: https://twitter.com/shippingbo
+  - type: YouTube
+    url: https://www.youtube.com/@shippingbo
+  - type: Features
+    data:
+      - Multi-channel order centralization across e-commerce sites, marketplaces, and private sales
+      - Real-time inventory across multiple warehouses with platform-specific stock rules
+      - Guided WMS picking and packing sessions with PDA / barcode-scanner support
+      - Multi-carrier TMS with 40+ pre-integrated French and European carriers
+      - Automated carrier selection rules based on weight, destination, service, and cost
+      - Customer notifications and branded post-purchase tracking
+      - Returns management
+      - REST/JSON API (Stoplight-hosted developer portal)
+      - OAuth 2.0 authentication via oauth.shippingbo.com
+      - Webhooks for order state changes, stock changes, and shipment events
+      - Dedicated TMS API usable standalone or with the full platform
+      - Source connectors for CMS, marketplaces, and ERPs
+      - 3PL mode for logistics providers operating on behalf of multiple merchants
+      - Reported scale: 80M+ orders and EUR 5B merchandise handled in 2024
+      - Reported developer scale: 500+ developers, 10M+ orders, 500M+ webhooks
+      - 2,500+ warehouses equipped across France and Europe
+    sources:
+      - https://www.shippingbo.com/en/
+      - https://developer.shippingbo.com/
+      - https://go.shippingbo.com/fr/api
+    updated: '2026-05-25'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
