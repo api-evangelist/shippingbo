@@ -2,11 +2,18 @@
   "repo": "shippingbo",
   "feeds": [
     {
-      "source": "https://www.shippingbo.com/en/ressources/articles-en/",
+      "source": "https://www.shippingbo.com/en/ressources/articles-en/feed/",
       "feed_url": "https://www.shippingbo.com/en/ressources/articles-en/feed/",
       "title": "",
-      "saved": 5,
-      "method": "discovered"
+      "saved": 4,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.shippingbo.com/en/clients/feed/",
+      "feed_url": "https://www.shippingbo.com/en/clients/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://www.shippingbo.com/en/clients/",
@@ -16,6 +23,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 8,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 15,
+  "fetched": "2026-06-27T12:03:07Z"
 }
