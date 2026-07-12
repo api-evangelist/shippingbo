@@ -110,6 +110,8 @@ apis:
         url: https://developer.shippingbo.com/docs/tms-api/4aq6szxp6fsja-get-started-with-shippingbo-tms
         name: Get started with Shippingbo TMS
 common:
+  - type: DomainSecurity
+    url: security/shippingbo-domain-security.yml
   - type: Website
     url: https://www.shippingbo.com
   - type: WebsiteEN
