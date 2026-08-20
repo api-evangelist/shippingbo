@@ -38,6 +38,25 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shippingbo
 tags:
   - Shipping
   - Logistics
+  - E-Commerce
+  - Order Management
+  - Warehouse Management
+  - Transport Management
+  - OMS
+  - WMS
+  - TMS
+  - Multi-Carrier
+  - Fulfillment
+  - 3PL
+  - Marketplaces
+  - Webhook
+  - Authentication
+  - Software-as-a-Service
+  - France
+  - French Tech
+tags_raw:
+  - Shipping
+  - Logistics
   - Ecommerce
   - Order Management
   - Warehouse Management
@@ -71,6 +90,16 @@ apis:
       stock changes without polling.
     humanURL: https://developer.shippingbo.com/docs/api/i15i5zn8ewpo0-introduction
     tags:
+      - Order
+      - Product
+      - Stocks
+      - Shipments
+      - Customers
+      - Sources
+      - Pickings
+      - Webhook
+      - Authentication
+    tags_raw:
       - Orders
       - Products
       - Stocks
