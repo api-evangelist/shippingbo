@@ -59,7 +59,7 @@ tags:
   - Multi-Carrier
   - Fulfillment
   - 3PL
-  - Marketplaces
+  - Marketplace
   - Webhook
   - Authentication
   - Software-as-a-Service
@@ -151,6 +151,12 @@ apis:
       transport layer inside the full Shippingbo platform.
     humanURL: https://developer.shippingbo.com/docs/tms-api/4aq6szxp6fsja-get-started-with-shippingbo-tms
     tags:
+      - Transport
+      - Carrier
+      - Labels
+      - Tracking
+      - Multi-Carrier
+    tags_raw:
       - Transport
       - Carriers
       - Labels
