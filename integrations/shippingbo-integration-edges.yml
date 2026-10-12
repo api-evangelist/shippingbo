@@ -1,0 +1,243 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/shippingbo/integrations
+checked:
+- https://composio.dev/toolkits/shippingbo
+- https://monid.ai/tools/shippingbo
+- https://n8n.io/integrations/shippingbo/
+- https://zapier.com/apps/shippingbo/integrations
+summary: null
+marketplace_apps:
+- marketplace: zapier
+  channel: ipaas-listing
+  app: shippingbo
+  url: https://zapier.com/apps/shippingbo/integrations
+  external_url: https://shippingbo.com/
+  partner_tier: BRONZE
+  triggers:
+  - key: new_order
+    label: New Order
+  - key: shipped_order
+    label: Shipped Order
+  actions:
+  - key: create_order
+    label: Create an Order
+  - key: create_product
+    label: Create Product
+  searches: []
+edges:
+- partner_name: Brevo
+  partner: brevo
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/brevo
+  direction: third-party
+  category: Email Newsletters
+  partner_url: https://www.sendinblue.com/?utm_medium=plugin&utm_source=zapier
+- partner_name: Google Sheets
+  partner: google-sheets
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/google-sheets
+  direction: third-party
+  category: Google
+  partner_url: http://sheets.google.com/
+- partner_name: Google Forms
+  partner: google-forms
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/google-forms
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: http://google.com/
+- partner_name: eBay
+  partner: ebay
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/ebay
+  direction: third-party
+  category: eCommerce
+  partner_url: https://www.ebay.com/
+- partner_name: Axonaut
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/axonaut
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://axonaut.com/
+- partner_name: HubSpot
+  partner: hubspot
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/hubspot
+  direction: third-party
+  category: Marketing Automation
+  partner_url: http://www.hubspot.com/
+- partner_name: Mailchimp
+  partner: mailchimp
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/mailchimp
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://mailchimp.com/
+- partner_name: Microsoft Outlook
+  partner: microsoft-outlook
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/microsoft-outlook
+  direction: third-party
+  category: Calendar
+  partner_url: https://outlook.live.com/
+- partner_name: Salesforce
+  partner: salesforce
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/salesforce
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://www.salesforce.com/
+- partner_name: ChatGPT (OpenAI)
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/chatgpt
+  direction: third-party
+  category: AI Assistants
+  partner_url: https://chat.openai.com/chat
+- partner_name: ActiveCampaign
+  partner: activecampaign
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/activecampaign
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://www.activecampaign.com/?utm_source=unpaid_syndication_website&utm_medium=referral&utm_campaign=zapier_listing
+- partner_name: Microsoft Excel
+  partner: null
+  partner_match: null
+  partner_candidate: zapier
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/excel
+  direction: third-party
+  category: Microsoft
+  partner_url: https://zapier.com/office.com
+- partner_name: Discord
+  partner: discord
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/discord
+  direction: third-party
+  category: Team Chat
+  partner_url: https://discordapp.com/
+- partner_name: Booqable
+  partner: booqable
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/booqable
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://booqable.com/
+- partner_name: Jackrabbit Class
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/jackrabbit-class
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://jackrabbittech.com/
+- partner_name: Pennylane
+  partner: pennylane
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/pennylane
+  direction: third-party
+  category: Accounting
+  partner_url: https://www.pennylane.tech/
+- partner_name: RO App
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/shippingbo/integrations/ro-app
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://help.roapp.io/en/
+templates:
+- title: Create a new Google Sheets row for each new Shippingbo order
+  url: https://zapier.com/apps/google-sheets/integrations/shippingbo/1801425/create-a-new-google-sheets-row-for-each-new-shippingbo-order
+  apps:
+  - shippingbo
+  - google-sheets
+- title: Create new Shippingbo orders from new Google Sheets rows
+  url: https://zapier.com/apps/google-sheets/integrations/shippingbo/1802326/create-new-shippingbo-orders-from-new-google-sheets-rows
+  apps:
+  - google-sheets
+  - shippingbo
+- title: Track your shipped Shippingbo orders by creating new rows in Google Sheets
+  url: https://zapier.com/apps/google-sheets/integrations/shippingbo/1803306/track-your-shipped-shippingbo-orders-by-creating-new-rows-in-google-sheets
+  apps:
+  - shippingbo
+  - google-sheets
+- title: Send messages via Slack channels for new orders in Shippingbo
+  url: https://zapier.com/apps/shippingbo/integrations/slack/1804240/send-messages-via-slack-channels-for-new-orders-in-shippingbo
+  apps:
+  - shippingbo
+  - slack
+- title: Send direct messages in Slack for new orders in Shippingbo
+  url: https://zapier.com/apps/shippingbo/integrations/slack/255569950/send-direct-messages-in-slack-for-new-orders-in-shippingbo
+  apps:
+  - shippingbo
+  - slack
+template_total: 5
